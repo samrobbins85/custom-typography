@@ -25,5 +25,5 @@ prose dark:prose-light
 and the class list for serif font with dark mode would be
 
 ```
-prose prose-serif dark:prose-serifLight
+prose prose-serif dark:prose-light dark:prose-serifLight
 ```

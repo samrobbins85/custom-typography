@@ -164,6 +164,12 @@ module.exports = (theme) => ({
         "h4 strong": {
           fontWeight: "700",
         },
+        img: {
+          margin: "10px auto",
+          backgroundColor: "white",
+          boxShadow:
+            "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);",
+        },
         "figure figcaption": {
           color: radix["slate11"],
           textAlign: "center",
@@ -296,6 +302,7 @@ module.exports = (theme) => ({
         h4: {
           color: radix["slateD12"],
         },
+
         "figure figcaption": {
           color: radix["slateD11"],
         },
@@ -361,6 +368,9 @@ module.exports = (theme) => ({
         h4: {
           fontStyle: "italic",
           fontWeight: "normal",
+        },
+        img: {
+          boxShadow: "unset",
         },
         "blockquote::before, blockquote::after": {
           all: "unset",
