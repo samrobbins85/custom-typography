@@ -1,0 +1,25 @@
+{
+  "name": "@samrobbins/custom-typography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samrobbins85/custom-typography.git"
+  },
+  "author": "Sam Robbins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samrobbins85/custom-typography/issues"
+  },
+  "homepage": "https://github.com/samrobbins85/custom-typography#readme",
+  "dependencies": {
+    "lodash.castarray": "^4.4.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.uniq": "^4.5.0",
+    "tailwindcss": "^2.2.4"
+  }
+}
