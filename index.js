@@ -5,7 +5,11 @@ const uniq = require("lodash.uniq");
 const styles = require("./styles");
 
 function configToCss(config = {}) {
-  return merge({}, ...Object.keys(config), ...castArray(config.css || {}));
+  return merge(
+    {},
+    ...Object.keys(config).map((key) => config[key]),
+    ...castArray(config.css || {})
+  );
 }
 
 module.exports = plugin.withOptions(

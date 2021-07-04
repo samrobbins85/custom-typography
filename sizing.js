@@ -86,7 +86,7 @@ const sizing = {
     paddingTop: em(16, 16),
     paddingRight: em(24, 16),
     paddingBottom: em(16, 16),
-    paddingLeft: em(24, 16),
+    paddingLeft: em(16, 16),
   },
   ol: {
     marginTop: em(24, 18),
